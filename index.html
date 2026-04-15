@@ -5,6 +5,14 @@
     <title>Coaco Tech</title>
 
     <style>
+	.fade-in {
+    animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
         body {
             font-family: Arial;
             margin: 0;
@@ -73,15 +81,22 @@
 <header>
     <img src="yourphoto.jpg" width="120">
     <h1>Coaco Tech 👨‍💻</h1>
-    <p>Built by Abdullahi Abubakar</p>
+    <p>I am Abdullahi, a passionate tech learner and computer studies teacher.</p>
 </header>
+<a href="contact.html" style="background:#ffc107; padding:10px 20px; text-decoration:none; color:black; border-radius:5px;">
+Contact Me
+</a>
 
 <section>
 
+<section class="fade-in">
+
     <div class="card">
         <h2>About Me</h2>
-        <p>I am Abdullahi, a passionate tech learner and computer studies teacher.</p>
-    </div>
+        <p>
+I am Abdullahi Abubakar, founder of Coaco Tech. 
+I build websites, teach computer studies, and help beginners understand technology.
+</p>
 
     <div class="card">
         <h2>My Skills</h2>
@@ -89,6 +104,14 @@
             <li>Computer Studies Teaching</li>
             <li>Basic Programming</li>
             <li>Typing Skills</li>
+			<div class="card">
+    <h2>My Projects</h2>
+    <ul>
+        <li>My Personal Website (Coaco Tech)</li>
+        <li>Typing Practice Project</li>
+        <li>Computer Studies Lesson Materials</li>
+    </ul>
+</div>
         </ul>
     </div>
 
